@@ -2,6 +2,6 @@
 
 Credits:
 
-Junior Figuereo
-Sammy Faraj
+Junior Figuereo </br>
+Sammy Faraj </br>
 Eddie Tonaco
