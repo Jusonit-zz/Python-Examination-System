@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exam Creator</title>
+    <link rel="stylesheet" href="../styles/split.css" />
+    <script async src="../javascript/main.js"></script>
+  </head>
+  <body onload="getall();">
+      <h1>
+      <div class="split left">
+        <div class="centered">
+          <h2>Questions</h2>
+          <div id="buttoninleft" > </div>
+          <input type="text" placeholder="Exam Name" id="examName">  
+          <input type="button" onclick="createexam(this.form);" value="Release Exam"> 
+          <input type="button"  onclick="location.href='teacherview.html';" value="Return Home"> 	
+
+        </div>
+      </div>
+      
+      <div class="split right">
+        <div class="centered">
+          <h2>All Questions</h2>
+          <form>
+			<input  placeholder="Keyword" id="qfilterkey">  
+      <select name="topics" id="qfiltertopic">
+        <option value="" selected disabled hidden>Topics</option>
+        <option value=""></option>
+        <option value="For Loops" >For Loops</option>
+        <option value="While Loops">While Loops</option>
+        <option value="Def">Def</option>
+        <option value="String">String</option>
+        <option value="Int">Int</option>
+        <option value="Array">Array</option>
+      </select>
+			<select name="difficulty" id="qfilterdiff">
+        <option value="" selected disabled hidden>Difficulty</option>
+        <option value=""></option>
+        <option value="Easy" >Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+			<!THIS WILL BE THE APPLY FILTER BUTTON>
+			<input type="button" onclick="applyfilter(this.form);" value="Apply Filter"> 
+      </form>
+          <div id="buttoninright"></div>
+        </div>
+      </div>
+      </h1>
+  </body>
+  <footer>
+    <p>Credits to: Sammy Faraj, Eddie Tonaco, Junior Figuereo</p>
+    <p>Contact information: <a href="mailto:someone@example.com">sf297@njit.edu</a></p>
+  </footer>
+</html>
