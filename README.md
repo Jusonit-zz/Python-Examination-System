@@ -1,13 +1,26 @@
-# Testing-Cite
+# Python Examination System
+
+## About:
+A student/teacher testing cite with python-related questions.
+
+On teacher login, functionality include:
+
+* Create Exam: Insert questions, assign point amounts, make exam available to students to take.
+* Create Question: Type a Python-related programming question, assign difficulty and topic.
+* Student Scores: Edit the autograded scores of students and add comment/feedback.
+* End Exam: makes current available exam to inactive status, students can no longer continue to answer questions on exam.
+
+
+On student login, functionality include:
+
+* Go to exam: Student answers questions of current available exam.
+* View Scores: The exam is autograded by the system and can view the scores given. If teacher edited score, student will be able to see as well with the comment/feedback provided.
+
+
+
+Full project is hosted here: [Python Examination System](https://web.njit.edu/~sf297/html/login.html).
 
 ## Credits:
-
-Junior Figuereo </br>
-Sammy Faraj </br>
-Eddie Tonaco </br> </br>
-
-Simple test cite for teachers and students. </br>
-Teacher create the a test by creating new questions or adding questions that were already created. </br>
-Students then take the test and submit, autograding is then performed from middle end. </br>
-Teacher can end the exam at any given time which will end the exam for students. </br>
-Teacher can also make adjustments to the autograded scores and provide feedback, both for students to view. </br> </br>
+### Junior Figuereo (me)
+### Sammy Faraj
+### Eddie Tonaco
