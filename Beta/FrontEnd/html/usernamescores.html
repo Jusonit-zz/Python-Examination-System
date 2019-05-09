@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Scores</title>
+    <link rel="stylesheet" href="../styles/default.css" />
+	<script async src="../javascript/main.js"></script>
+  </head>
+  <body onload="teacherreview(localStorage.getItem('username'),localStorage.getItem('scores'),localStorage.getItem('answers'),localStorage.getItem('comments'));">
+	  <h1>Student Scores</h1> 
+     <div id="buttonin" class="row"></div>
+     <input type="button" onclick="postfinalgrades();"  value="Submit Changes">
+     <br>
+     <input type="button" onclick="location.href='studentscores.html';"  value="Return To Student Scores">
+  </body>
+  <footer>
+    <p>Credits to: Sammy Faraj, Eddie Tonaco, Junior Figuereo</p>
+    <p>Contact information: <a href="mailto:someone@example.com">sf297@njit.edu</a></p>
+  </footer>
+</html>
